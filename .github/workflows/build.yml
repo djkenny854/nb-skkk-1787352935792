@@ -11,7 +11,7 @@ env:
   NB_WEB_DIR_CANDIDATES: "dist,build,build/public,public/build,www"
   NB_CPR_RELEASE: "2026.08"
   NB_LOCKFILE_POLICY: "regenerate"
-  NB_EXPECTED_MANIFEST_SHA256: "81c24954741ebc373d7f13a9e4844a9ad5f3215337d3766d08e65647ed5bfc98"
+  NB_EXPECTED_MANIFEST_SHA256: "43d825382bb3648f81129e9fcaa50ec1e23193577f78b671439d58848aa0f0c8"
   NB_EXPECTED_LOCKFILE_SHA256: ""
   NB_EXPECTED_LOCKFILE_PATH: ""
   NB_PACKAGE_MANAGER: "bun"
@@ -263,4 +263,4 @@ jobs:
           name: phase1-source
           path: phase1-source.zip
           retention-days: 1
-# build-nonce: c964e852-db6d-4d8b-a498-9768c4d9a3a7
+# build-nonce: 598a6bec-dbb7-4ea8-8cb6-e6b1295e22af
